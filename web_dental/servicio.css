@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.cabecera {
+    background-color: #1579eb77;
+    color: #fff;
+    padding: 0.4rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    border: rgb(15, 15, 15) 3px solid;
+}
+
+.cab_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5pxs;
+}
+
+.cab_nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: rgb(253, 254, 255);
+    padding: 0.5rem 1rem;
+}
+
+.navegacion ul li a:hover {
+    background: rgba(199, 202, 38, 0.178);
+    ;
+}
+
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nomb_logo {
+    width: 300px;
+    padding: 0px 20px;
+    float: left;
+    position: relative;
+    top: 5%;
+    left: 2%;
+    color: rgb(253, 254, 255);
+    font-size: 30px;
+}
+
+.logo_img {
+    width: 50px;
+    position: absolute;
+}
+
+.container {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: black;
+    font-size: x-large
+}
+
+h1 {
+    color: rgb(71, 89, 245);
+    text-align: justify;
+    font-family: times, serif;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 1px 500px;
+    width: 30%;
+    max-width: 60%;
+    border: rgb(0, 0, 0) 3px solid;
+}
+
+.radio1 {
+    width: 20%;
+    max-width: 250%;
+    transform: translateX(220%) translateY(-500%);
+}
+
+.desc2 {
+    width: 20%;
+    max-width: 250%;
+    transform: translateX(117%) translateY(-450%);
+}
+
+.peri {
+    width: 20%;
+    max-width: 250%;
+    transform: translateX(17%) translateY(-130%);
+}

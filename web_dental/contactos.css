@@ -1,0 +1,105 @@
+        body {
+            font-family: sans-serif;
+            line-height: 1.6em;
+            margin: 0;
+        }
+        
+        .cabecera {
+            background-color: #1579eb77;
+            color: #fff;
+            padding: 0.4rem 0;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            border: rgb(15, 15, 15) 3px solid;
+        }
+        
+        .cab_nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .navegacion ul li {
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .navegacion ul li a {
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.4s linear;
+            border-radius: 5pxs;
+        }
+        
+        .cab_nav ul li a {
+            text-decoration: none;
+            display: block;
+            color: rgb(253, 254, 255);
+            padding: 0.5rem 1rem;
+        }
+        
+        .navegacion ul li a:hover {
+            background: rgba(199, 202, 38, 0.178);
+            ;
+        }
+        
+        .navegacion ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .nomb_logo {
+            width: 300px;
+            padding: 0px 20px;
+            float: left;
+            position: relative;
+            top: 5%;
+            left: 2%;
+            color: rgb(253, 254, 255);
+            font-size: 30px;
+        }
+        
+        .logo_img {
+            width: 50px;
+            position: absolute;
+        }
+        
+        .contenedor {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 50%;
+            max-width: 85%;
+            padding: 25px 10px;
+            margin: 0 auto;
+            border: solid;
+            background-color: rgba(204, 226, 245, 0.63);
+        }
+        
+        .foot {
+            background-color: #5786bb67;
+            margin-top: 41%;
+            width: 100%;
+            padding: 20px 0px;
+            position: relative;
+        }
+        
+        .foot_p {
+            color: #fff;
+            text-align: center;
+        }
+        
+        body {
+            background-image: url(../web_dental/ima/marketing\ clinicas\ dentales\ dentistas\ odontologos\ captar\ pacientes\ publicidad\ en\ internet-1.jpg);
+            position: fixed;
+            min-width: 100%;
+            min-width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            z-index: -1;
+        }
